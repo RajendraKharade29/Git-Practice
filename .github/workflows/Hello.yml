@@ -1,0 +1,18 @@
+# This is my First CI /CD  Workflows Practical
+
+name: Hello
+
+on: 
+
+  workflow_dispatch:
+
+jobs:
+  say-hello:
+
+    runs-on: ubuntu-latest
+
+
+
+    steps:
+      - name: say-hello to ervryone
+        run: echo "Hello Dosto"
